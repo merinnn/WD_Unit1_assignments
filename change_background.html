@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changeimg{
+            0%{background-image: url(Images/Demon_slayer1.jpg);}
+            20%{background-image: url(Images/Demon_slayer2.jpg);}
+            40%{background-image: url(Images/Demon_slayer3.jpeg);}
+            60%{background-image: url(Images/Demon_slayer4.jpg);}
+            80%{background-image: url(Images/Demon_slayer5.jpg);}
+            100%{background-image: url(Images/Demon_slayer6.jpg);}
+            120%{background-image: url(Images/Demon_slayer1.jpg);}
+        }
+    body{
+        background-image: url(Images/Demon_slayer1.jpg);
+        background-repeat: no-repeat;
+        background-size: 1000px 600px;
+        animation-name: changeimg;
+        animation-duration: 20s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
