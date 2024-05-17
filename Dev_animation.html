@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 80px;
+            height: 80px;
+            background-color: black;
+            position: absolute;
+            border-radius: 70%;
+            animation-name: moving;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite; /* Added to make the animation repeat */
+        }
+        @keyframes moving {
+            0% { background-color: black; left: 0px; top: 0px; }
+            25% { background-color: chocolate; left: 1400px; top: 0px; }
+            50% { background-color: coral; left: 1400px; top: 650px; }
+            75% { background-color: darksalmon; left: 0px; top: 650px; }
+            100% { background-color: lightsalmon; left: 0px; top: 0px; }
+        }
+    </style>
+</head>
+<body>
+    <div></div> <!-- Added the div element here -->
+</body>
+</html>
